@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    background: rgb(131,58,180);
+    background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+#my-form{
+    width: 400px;
+    margin:  10% auto 0 auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin:0;
+}
+h1:hover{
+    border-bottom: 3px solid orangered;
+    color: blue;
+}
+.login-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.login-group input{
+    margin-top:7px;
+    border-radius: 7px;
+    font-size: 15px;
+    padding:10px;
+    border:3px solid rgb(0, 26, 255)
+}
+.login-group:hover{
+   border-bottom: 3px solid orangered;
+   color: blue;
+}
+#my-form button {
+    width: 100%;
+    background: #2068b4;
+    color: whitesmoke;
+    padding: 10px;
+    border: 2px solid #2068b4;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fnameError{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+#signed{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#submit{
+    font-size: 20px;
+    width: 100%;
+    background: #2068b4;
+    color: whitesmoke;
+    padding: 10px;
+    border: 2px solid #2068b4;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+p{
+    color:darkgreen; 
+    margin-top: 10px;
+    border-radius: 40px;
+}

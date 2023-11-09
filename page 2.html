@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--signup page-->
+   <div class="Login-container">
+    <form action="" id="my-form">
+           <h1>Sign In</h1>
+           <div class="login-group">
+               <label for="Fullname"><i class='fas fa-users' style='font-size:24px'></i>Fullname</label>
+               <input type="text" id="Fullname" placeholder="Fullname" name="Fullname">
+               <div class="fnameError"></div>
+           </div>
+           <div class="login-group">
+               <label for="email"><i class="fa fa-envelope"></i>Email</label>
+               <input type="text" id="email" placeholder="email" name="email">
+               <div class="emailerror"></div>
+           </div>
+           <div class="login-group">
+               <label for="phonenumber"><i class="fa fa-phone" style="font-size:24px"></i>Phonenumber</label>
+               <input type="text" id="phonenumber" placeholder="phonenumber" name="phonenumber">
+               <div class="pnumError"></div>
+           </div>
+           <div class="login-group">
+               <label for="password"><i class="fa fa-lock" style="font-size:24px"></i>Create password</label>
+               <input type="password" id="Createpassword" placeholder="createpassword" name="createpassword">
+               <div id="crpwdError"></div>
+           </div>
+           <div class="login-group">
+               <label for="password"><i class="fa fa-lock" style="font-size:24px"></i>Confirm password</label>
+               <input type="password" id="cpassword" placeholder="cpassword" name="cpassword">
+               <div class="cpwdError"></div>
+           </div>
+           <div class="login-group"><h3>Gender</h3></div>
+           <div>
+           <input type="radio" id="Male" name="gender" value="Male">
+           <label for="Male">Male</label>
+           <input type="radio" id="Female" name="gender" value="Female">
+           <label for="Female">Female</label>
+           </div>
+           <!--retun login page-->
+           <input type="submit" id="submit" value="Signin"/>
+   </form>
+ </div>
+ <script src="./Signup.js"></script>
+</body>
+</html>

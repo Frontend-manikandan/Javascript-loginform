@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <form action="../Javascript Main tasks/Todo.html" id="my-form">
+            <h1>Login Form</h1>
+            <div class="login-group">
+                <label for="username"><i class="fa fa-envelope"></i>Username</label>
+                <input type="text" id="username" placeholder="username" name="username" onkeyup="validateName()"/>
+                <div class="nameError"></div>
+            </div>
+            <div class="login-group">
+                <label for="username"><i class="fa fa-lock" style="font-size:24px"></i>Password</label>
+                <input type="password" id="password" placeholder="password" name="password" autocomplete="current-password"/>
+                <div class="pwdError"></div>
+            </div>
+
+            <button type="submit" value="button">Login</button>
+
+            <p><i class='far fa-thumbs-down' style='font-size:24px'></i>Create a new account ,If you not have an account?</p><br>
+
+            <button type="submit"><a href="page 2.html" id="submit">Signup</a></button>
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
